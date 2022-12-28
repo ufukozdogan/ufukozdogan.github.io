@@ -1,6 +1,6 @@
 # Site settings
 site: Ozdogan
-title: Ozdogan's World
+title: Ozdogan's Castle
 keywords: ephesus, blog
 description: >-
   Ozdogan's Castle
@@ -14,7 +14,7 @@ discus-identifier:  XXX
 # Author settings
 author:
   name: Ufuk Ozdogan
-  bio: Senior DevOps/SRE, Video Game Enthusiast, Developer <br> Check out my Medium for the tech blogs!
+  bio: Senior DevOps/SRE | Developer | Video Game Enthusiast <br> <font size="-1"><i>Check out my Medium for the tech blogs!</i></font>
   picture: assets/images/profile.jpeg 
   github: ufukozdogan # github username
   twitter: mrcoreborn # twitter username
@@ -26,7 +26,7 @@ author:
 
 
 # URL settings
-url: "https://ufukozdogan.github.io" # Domain Name of host. [username].github.io for github pages
+url: "https://ufukozdogan.dev" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
