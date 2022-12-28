@@ -1,7 +1,7 @@
 # Site settings
 site: Ozdogan
 title: Ozdogan's Castle
-keywords: ephesus, blog
+keywords: ufuk ozdogan, ufuk özdoğan, blog
 description: >-
   Ozdogan's Castle
 lang: en-US
@@ -14,7 +14,7 @@ discus-identifier:  XXX
 # Author settings
 author:
   name: Ufuk Ozdogan
-  bio: Senior DevOps/SRE | Developer | Video Game Enthusiast <br> <font size="-1"><i>Check out my Medium for the tech blogs!</i></font>
+  bio: Senior DevOps/SRE | Developer <br> Video Game Enthusiast <br> <font size="-1"><i>Check out my Medium for the tech blogs!</i></font>
   picture: assets/images/profile.jpeg 
   github: ufukozdogan # github username
   twitter: mrcoreborn # twitter username
@@ -24,7 +24,6 @@ author:
   linkedin: ufukozdogan # linkedin username
   #email: your-email@email.com # email adress
 
-
 # URL settings
 url: "https://ufukozdogan.dev" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
@@ -33,7 +32,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 
 exclude:
   - .jekyll-cache
