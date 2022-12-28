@@ -99,8 +99,6 @@ body{
   margin-bottom: 20px;
 }
 
-.post-tag{margin-bottom: 5px;}
-
 .tags{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .tag{background: var(--bg-color); padding: 5px 10px; margin-right: 10px; margin-bottom: 10px; display: flex; align-items: center;}
 
@@ -138,7 +136,7 @@ body{
   font-size: 18px;
 }
 
-.post-tag{background: var(--bg-color); color:var(--primary-font-color); padding: 5px 10px;}
+.post-tag{background: var(--bg-color); color:#0771ca;}
 
 .profile{
   width: 100%; 
@@ -169,6 +167,27 @@ img{max-width: 100%;}
 figure{margin:0; padding: 15px;}
 pre{font-size: 14px; max-width: 90vw; overflow: auto;}
 .social-icon{height: 24px;}
+.twitter-color{filter: invert(81%) sepia(47%) saturate(5441%) hue-rotate(179deg) brightness(92%) contrast(84%);}
+.sof-color{filter: invert(95%) sepia(87%) saturate(7246%) hue-rotate(310deg) brightness(87%) contrast(96%);}
+.linkedin-color{filter: invert(33%) sepia(98%) saturate(625%) hue-rotate(164deg) brightness(95%) contrast(89%);}
+.gitlab-color{filter: invert(48%) sepia(27%) saturate(1133%) hue-rotate(333deg) brightness(97%) contrast(99%);}
+.medium-color{filter: invert(59%) sepia(24%) saturate(940%) hue-rotate(71deg) brightness(91%) contrast(85%);}
+.about-color{filter: invert(36%) sepia(83%) saturate(407%) hue-rotate(360deg) brightness(92%) contrast(84%);}
+
+.hvr-grow {
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
